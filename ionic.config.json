@@ -1,0 +1,7 @@
+{
+  "name": "ion-t-gamaya",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
