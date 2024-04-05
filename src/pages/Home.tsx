@@ -20,7 +20,7 @@ import {
               <IonTitle size="large">Home</IonTitle>
             </IonToolbar>
           </IonHeader>
-          <h1>RAIDEN SHOGUN<br></br>RAITEI NO HIKARI MUTSUTOBOSHI NO MUSASHI KAMINARI NO TEKI</h1>
+          <h1>GODEX<br></br>FIRRRRREEEEEEEE LETS TURN UP THE HEAT</h1>
         </IonContent>
       </IonPage>
     );
