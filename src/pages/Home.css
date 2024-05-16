@@ -1,0 +1,48 @@
+/* home.css */
+
+/* style.css */
+
+/* Adjust the font size for card titles */
+.ion-card-content div {
+    font-size: 24px; /* You can adjust the font size as needed */
+  }
+  
+  
+  .ion-text-center {
+    text-align: center;
+    font-size: xx-large;
+  }
+  
+  .ion-card-content {
+    font-size: 50px;
+  }
+  
+  .ion-card {
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .ion-card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .ion-card img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .ion-card-content div {
+    padding: 10px;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
