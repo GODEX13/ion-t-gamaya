@@ -22,6 +22,7 @@ const Home: React.FC = () => {
     { id: 'card2', title: 'Calculator', imageUrl: '../src/assets/img/Calculator.gif', onClick: () => history.push('/calculator') },
     { id: 'card3', title: 'Todo List', imageUrl: '../src/assets/img/Todolist.gif', onClick: () => history.push('/to_do_list') },
     { id: 'card4', title: 'Qoutes Generator', imageUrl: '../src/assets/img/Quote_Generator.gif', onClick: () => history.push('/qoutes_generator') },
+    { id: 'card5', title: 'Notes', imageUrl: '../src/assets/img/Quote_Generator.gif', onClick: () => history.push('/notes') },
   ].filter(card => card.title.toLowerCase().includes(searchQuery.toLowerCase()));
 
   const handleSearchChange = (event: React.ChangeEvent<HTMLInputElement>) => {
