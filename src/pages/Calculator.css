@@ -1,0 +1,38 @@
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .buttons ion-button {
+    width: 100%;
+  }
+  
+  .buttons ion-input {
+    text-align: right;
+    font-size: 24px;
+    padding: 10px;
+  }
+  
+  .buttons ion-button,
+  .buttons ion-input {
+    --background: #030101;
+    --border-color: #8ada4a;
+  }
+  
+  .buttons ion-button:active,
+  .buttons ion-button:focus,
+  .buttons ion-input:active,
+  .buttons ion-input:focus {
+    --background: #90e27c;
+  }
+  
+  .buttons ion-button.clear {
+    grid-column: span 2;
+  }
+  
+  .buttons ion-button.equals {
+    grid-column: span 4;
+  }
+  
